@@ -1,0 +1,49 @@
+/* Стили для карточек */
+.card {
+  border: 3px solid blueviolet;
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.card__image {
+  width: 500px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+/* Стили для футера */
+.footer {
+  background-color: gray;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 15pt;
+  padding: 15pt;
+}
+
+@media screen and (max-width: 650px) {
+  .card__image{
+    width: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .card__image{
+    width: 200px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .card__image{
+    width: 200px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0pt;
+    padding: 0pt;
+  }
+  
+}
